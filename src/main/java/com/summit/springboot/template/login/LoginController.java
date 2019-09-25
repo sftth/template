@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
     @GetMapping("/login")
     public String init() {
-        return "test";
+
+        return "Hello Travic CI";
     }
 }
